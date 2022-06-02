@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: rgb(0, 0, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.searchBox {
+    height: 0rem;
+    width: 0rem;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+    transition: all 0.2s ease;
+    font-family: 'comic sans', cursive;
+    font-weight: bold;
+}
+
+.searchBtn {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: none;
+}
+
+.search:hover>.searchBox {
+    height: 5rem;
+    width: 25rem;
+    padding: 2rem;
+}
